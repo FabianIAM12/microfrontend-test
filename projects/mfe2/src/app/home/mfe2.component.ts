@@ -22,8 +22,7 @@ export class Mfe2Component implements OnInit {
   constructor(
     private libService: FrontendLibraryService,
     private route: ActivatedRoute,
-  ) {
-  }
+  ) { }
 
   @HostListener('window:keyup', ['$event'])
   keyEvent(event: KeyboardEvent) {
